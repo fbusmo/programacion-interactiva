@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Trabajo 01</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <h2 id="#titulo">Regístrate</h2>
+    <div class="">
+      <form id="#formulario" onsubmit="return validarFormulario()">
+        <label>Rut:<input type="text" id="rut" /> </label>
+        <label>Nombre:<input type="text" id="nombre" /> </label>
+        <label
+          >Dirección:
+          <input type="text" id="direccion" />
+        </label>
+        <label>Comuna:<input type="text" id="comuna" /> </label>
+        <label>Ciudad:<input type="text" id="ciudad" /> </label>
+        <label>Correo electrónico:<input type="email" id="mail" /> </label>
+        <label>Teléfono particular:<input type="tel" id="telefono" /></label>
+        <label>Teléfono móvil<input type="tel" id="movil" /> </label>
+        <label>Contraseña:<input type="password" id="clave" /> </label>
+        <div class="boton">
+          <button type="submit" value="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+    <p id="consola"></p>
+    <!--Javascript-->
+    <script src="script.js"></script>
+  </body>
+</html>
